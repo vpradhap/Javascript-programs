@@ -1,0 +1,5 @@
+var dice1 = Math.floor(1+Math.random()*6)
+console.log("Random dice number : "+dice1)
+var dice2 = Math.floor(1+Math.random()*6)
+console.log("Random dice number : "+dice2)
+console.log("Addition of two random dice number : " + Math.floor(dice1 + dice2))
